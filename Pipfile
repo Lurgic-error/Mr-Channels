@@ -6,15 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+channels = "*"
 django = "*"
+pypiwin32 = "*"
 pillow = "*"
-django-allauth = "*"
-django-crispy-forms = "*"
-django-rest-auth = "*"
-django-cors-headers = "*"
-twilio = "*"
-djangorestframework = "*"
-django-channels = "*"
+service-identity = "*"
+channels-redis = "*"
 
 [requires]
 python_version = "3.7"
